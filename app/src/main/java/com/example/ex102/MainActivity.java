@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i, boolean b) {
                 if(b) color[i] = 255;
                 else if (color[i] == 255) color[i] = 0;
-                screen.setBackgroundColor(Color.rgb(color[0],color[1],(color[2])));
+
             }
         });
 
@@ -94,6 +94,18 @@ public class MainActivity extends AppCompatActivity {
                 // When the user click yes button
                 // then app will close
                 dialog.cancel();
+            }
+        });
+
+        builder.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog,
+                                int which) {
+
+                // When the user click yes button
+                // then app will close
+                screen.setBackgroundColor(Color.rgb(color[0],color[1],(color[2])));
             }
         });
 
