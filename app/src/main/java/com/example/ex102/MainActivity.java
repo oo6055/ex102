@@ -132,6 +132,8 @@ public class MainActivity extends AppCompatActivity {
                 // When the user click yes button
                 // then app will close
                 screen.setBackgroundColor(Color.rgb(color[0],color[1],(color[2])));
+
+                dialog.cancel();
             }
         });
 
