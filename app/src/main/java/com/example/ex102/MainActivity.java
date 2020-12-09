@@ -30,7 +30,6 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     LinearLayout screen;
     AlertDialog.Builder builder;
-    Random rnd;
     Intent si;
     int[] color;
 
