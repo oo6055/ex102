@@ -25,7 +25,7 @@ import java.util.Random;
  *  @version 1.0
  *  @since 23/11/2020
  *  sort description:
- *  this is the activty the implement the exericse that my teacher gave...
+ *  this is the activty the implement the exercise that my teacher gave...
  */
 public class MainActivity extends AppCompatActivity {
     LinearLayout screen;
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * sit2.
-     * short dec: create alert with text and button
+     * short dec: do a very specail action with colors and allow to the user to change the color as he wish
      *
      * <p>
      *      View view
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * sit4.
-     * short dec: create alert with text and button and icon and button for exit and to genarate color
+     * short dec: print the contance of the et
      *
      * <p>
      *      View view
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * sit3.
-     * short dec: create alert with text and button and icon and button for exit
+     * short dec: reset the color to white
      *
      * <p>
      *      View view
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * sit5.
-     * short dec: create alert with text and button and icon and button for exit
+     * short dec: the bounos that presents two et and than it to doast to the summery of them
      *
      * <p>
      *      View view
