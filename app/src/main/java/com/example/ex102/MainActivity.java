@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                 // then app will close
                 screen.setBackgroundColor(Color.rgb(color[0],color[1],(color[2])));
 
-                dialog.cancel();
+                dialog.dismiss();
             }
         });
 
@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText et = new EditText(this);
         final EditText et2 = new EditText(this);
 
-        LinearLayout ll=new LinearLayout(this);
+        LinearLayout ll = new LinearLayout(this);
         ll.setOrientation(LinearLayout.VERTICAL);
         ll.addView(et);
         ll.addView(et2);
@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity {
                 // then app will close
                 Toast.makeText(MainActivity.this,
                         et.getText().toString()+ et2.getText().toString(), Toast.LENGTH_LONG).show();
-                dialog.cancel();
+                dialog.dismiss();
             }
         });
 
