@@ -18,6 +18,15 @@ import android.widget.Toast;
 
 import java.util.Random;
 
+/**
+ * The type Main activity.
+ *
+ *  @author Ori Ofek <oriofek106@gmail.com> 8/12/2020
+ *  @version 1.0
+ *  @since 23/11/2020
+ *  sort description:
+ *  this is the activty the implement the exericse that my teacher gave...
+ */
 public class MainActivity extends AppCompatActivity {
     LinearLayout screen;
     AlertDialog.Builder builder;
@@ -32,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
         screen = (LinearLayout)findViewById(R.id.screen);
     }
 
+    /**
+     * First sit.
+     * short dec: create alert with text
+     *
+     * <p>
+     *      View view
+     * @param	view - see which button pressed
+     * @return	none
+     */
     public void sit1(View view) {
         color = new int[] {0,0,0};
         String[] colors={"Red","Green","Blue"};
@@ -68,6 +86,15 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    /**
+     * sit2.
+     * short dec: create alert with text and button
+     *
+     * <p>
+     *      View view
+     * @param	view - see which button pressed
+     * @return	none
+     */
     public void sit2(View view) {
         color = new int[] {0,0,0};
         String[] colors={"Red","Green","Blue"};
@@ -116,6 +143,15 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    /**
+     * sit4.
+     * short dec: create alert with text and button and icon and button for exit and to genarate color
+     *
+     * <p>
+     *      View view
+     * @param	view - see which button pressed
+     * @return	none
+     */
     public void sit4(View view) {
 
         builder = new AlertDialog.Builder(MainActivity.this);
@@ -144,10 +180,28 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
+    /**
+     * sit3.
+     * short dec: create alert with text and button and icon and button for exit
+     *
+     * <p>
+     *      View view
+     * @param	view - see which button pressed
+     * @return	none
+     */
     public void sit3(View view) {
         screen.setBackgroundColor(Color.WHITE);
     }
 
+    /**
+     * sit5.
+     * short dec: create alert with text and button and icon and button for exit
+     *
+     * <p>
+     *      View view
+     * @param	view - see which button pressed
+     * @return	none
+     */
     public void sit5(View view) {
         builder = new AlertDialog.Builder(MainActivity.this);
         builder.setTitle("et Widget");
